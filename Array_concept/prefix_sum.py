@@ -6,4 +6,6 @@ for i in range(len(a)):
         prefix.append(a[i])
     else:
         prefix.append(prefix[i-1]+a[i])
+        
+    
 print(prefix)

@@ -1,4 +1,4 @@
-a=[3,0,1]
+a = [9, 6, 4, 2, 3, 5, 7, 0, 1]
 n=len(a)
 expected_sum=n*(n+1)//2
 actucal_sum=0

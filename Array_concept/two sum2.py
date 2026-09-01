@@ -1,5 +1,5 @@
 a=[2,7,11,15]
-target=18
+target=13
 seen={}
 
 for i in range(len(a)):

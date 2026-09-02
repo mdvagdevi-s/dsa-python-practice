@@ -6,6 +6,7 @@ for i in range(len(a)):
     n=t-c
     if n in seen:
         print("Found:",seen[n],i)
+        break
 
     else:
         seen[c]=i

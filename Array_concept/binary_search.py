@@ -1,5 +1,5 @@
 a= [2, 5, 8, 12, 16, 20, 25]
-target = 100
+target = 20
 low=0
 high=len(a)-1
 found=False

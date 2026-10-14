@@ -8,4 +8,4 @@ while n>0:
 if reverse==num:
     print("The given number is a palindrome")
 else:
-    print("The given number is not a palindrome")
+    print("The given number is not a palindrome") 

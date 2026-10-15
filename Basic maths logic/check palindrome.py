@@ -1,11 +1,38 @@
-n=121
-num=n
-reverse=0
-while n>0:
-    digit=n%10
-    reverse=reverse*10+digit
-    n=n//10
-if reverse==num:
-    print("The given number is a palindrome")
-else:
-    print("The given number is not a palindrome") 
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        num=x
+        rev=0
+        if x<0:
+            return False
+        while x>0:
+            digit=x%10
+            rev=rev*10+digit
+            x=x//10
+        if num==rev:
+            return True
+        else:
+            return False
+obj=Solution()
+print(obj.isPalindrome(121))
+print(obj.isPalindrome(-121))
+print(obj.isPalindrome(10))
+print(obj.isPalindrome(1221))
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        num=x
+        rev=0
+        if x<0:
+            return False
+        while x>0:
+            digit=x%10
+            rev=rev*10+digit
+            x=x//10
+        if num==rev:
+            return True
+        else:
+            return False
+obj=Solution()
+print(obj.isPalindrome(121))
+print(obj.isPalindrome(-121))
+print(obj.isPalindrome(10))
+print(obj.isPalindrome(0))
